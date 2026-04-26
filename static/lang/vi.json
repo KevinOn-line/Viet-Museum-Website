@@ -1,0 +1,36 @@
+{
+  
+  "era": {
+    "ancient": "Thời cổ đại",
+    "dynastic": "Thời phong kiến",
+    "modern": "Thời hiện đại"
+  },
+
+  "event": {
+    "info": "Thông tin",
+
+    "1": {
+      "title": "Thời kỳ hình thành ban đầu",
+      "date": "### - ### AD",
+      "summary": "Tóm tắt sự kiện chính trong giai đoạn hình thành ban đầu."
+    },
+
+    "2": {
+      "title": "Mở rộng và xung đột",
+      "date": "### - ### AD",
+      "summary": "Tóm tắt sự kiện chính trong giai đoạn mở rộng và xung đột."
+    },
+    "3": {
+      "title": "Thời đại hiện đại",
+      "date": "### - Hiện tại",
+      "summary": "Tóm tắt sự kiện chính trong giai đoạn thời đại hiện đại."
+    }
+  },
+
+  "about": {
+    "title": "Về trang web",
+    "desc": "Một cách khám phá lịch sử tương tác. Trang web này được tạo ra để cung cấp một cách hấp dẫn để tìm hiểu về lịch sử Việt Nam. Mỗi sự kiện trên dòng thời gian được biểu diễn bằng một thẻ có thể nhấp vào để xem thêm chi tiết, và nền có hiệu ứng 3D động được tạo bằng Three.js để nâng cao trải nghiệm người dùng. Phần văn bản bên cạnh là tóm tắt của sự kiện chính, và nhấp vào thẻ sẽ hiển thị thêm thông tin. Xin lưu ý rằng trang web này có thể chưa được tối ưu hoàn toàn cho thiết bị di động và được xem tốt nhất trên máy tính để có trải nghiệm đầy đủ. Tuy nhiên, chúng tôi đang liên tục cải thiện thiết kế và chức năng để làm cho nó dễ tiếp cận hơn với tất cả mọi người.",
+
+    "created": "Tạo bởi:"
+  }
+}

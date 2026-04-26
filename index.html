@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnamese History</title>
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+
+    <header class="main-header">
+    
+    <div class="header-left">
+        
+        <div class="dropdown">
+            <button class="v-events-btn" data-key="nav.events">Events</button>
+
+            <div class="dropdown-content">
+                <span class="dropdown-header" data-key="nav.timeline">Timeline Pages</span>
+
+                <a href="#era1" onclick="showTimeline()" data-key="era.ancient">EVIL TIME PT1</a>
+                <a href="#era2" onclick="showTimeline()" data-key="era.dynastic">EVIL TIME PT2</a>
+                <a href="#era3" onclick="showTimeline()" data-key="era.modern">Separated Hearts</a>
+                <a href="#era4" onclick="showTimeline()" data-key="era.contemporary">Stinging Shock</a>
+                <a href="#era5" onclick="showTimeline()" data-key="era.colonial">Burning Run</a>
+                <a href="#era6" onclick="showTimeline()" data-key="era.war"> Necessary Solutions</a>
+                <a href="#era7" onclick="showTimeline()" data-key="era.postwar">Partial Nercrosis</a>
+                <a href="#era8" onclick="showTimeline()" data-key="era.reform">The Birth of Tragedy</a>
+                <a href="#era9" onclick="showTimeline()" data-key="era.globalization">Roaring Flare</a>
+                <a href="#era10" onclick="showTimeline()" data-key="era.ancient">Stormwatch</a>
+                <a href="#era11" onclick="showTimeline()" data-key="era.dynastic">Shatterpoint</a>
+                <a href="#era12" onclick="showTimeline()" data-key="era.modern  ">Return to Mist</a>
+                <a href="#era13" onclick="showTimeline()" data-key="era.contemporary">All Quiet Under The Thunder</a>
+                <a href="#era14" onclick="showTimeline()" data-key="era.colonial">The Whirlpool That Is Passion</a>
+                <a href="#era15" onclick="showTimeline()" data-key="era.war">Absolved Will Be The Seekers</a>
+                <a href="#era16" onclick="showTimeline()" data-key="era.postwar">Dissociative Recombination</a>
+            </div>
+        </div>
+
+        <!-- 🌐 Language Toggle -->
+        <button id="lang-toggle" class="lang-btn">EN</button>
+
+    </div>
+
+    <h1 class="site-title" data-key="title">Vietnamese History</h1>
+
+    <div class="toggle-group">
+        <button id="view-timeline" class="toggle-btn active">|||</button>
+        <button id="view-about" class="toggle-btn">☰</button>
+    </div>
+
+</header>
+
+    <main>
+    <div id="timeline-container">
+        <div class="center-line"></div>
+        
+        <div id = "era1" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 1')">
+                <div class="image-placeholder">
+                    <img src="static/images/Prologue.webp" alt="Event 1">
+                </div>
+                <div class="date-tag" data-key="event.1.date">### - ### AD</div>
+            </div>
+            </div>
+
+        <div id = "era2" class="timeline-item right-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 2')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_01.webp" alt="Event 2">
+                </div>
+                <div class="date-tag" data-key="event.2.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era3" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 3')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_02.webp" alt="Event 3">
+                </div>
+                <div class="date-tag" data-key="event.3.date">### - ### AD</div>
+            </div>
+            </div>
+               <div id = "era4" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 4')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_03.webp" alt="Event 4">
+                </div>
+                <div class="date-tag" data-key="event.4.date">### - ### AD</div>
+            </div>
+            </div>
+            <div id = "era5" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 5')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_04.webp" alt="Event 5">
+                </div>
+                <div class="date-tag" data-key="event.5.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era6" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 6')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_05.webp" alt="Event 6">
+                </div>
+                <div class="date-tag" data-key="event.6.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era7" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 7')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_06.webp" alt="Event 7">
+                </div>
+                <div class="date-tag" data-key="event.7.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era8" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 8')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_07.webp" alt="Event 8">
+                </div>
+                <div class="date-tag" data-key="event.8.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era9" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 9')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_08.webp" alt="Event 9">
+                </div>
+                <div class="date-tag" data-key="event.9.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era10" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 10')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_09.webp" alt="Event 10">
+                </div>
+                <div class="date-tag" data-key="event.10.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era11" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 11')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_10.webp" alt="Event 11">
+                </div>
+                <div class="date-tag" data-key="event.11.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era12" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 12')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_11.webp" alt="Event 12">
+                </div>
+                <div class="date-tag" data-key="event.12.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era13" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 13')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_12.webp" alt="Event 13">
+                </div>
+                <div class="date-tag" data-key="event.13.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era14" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 14')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_13.webp" alt="Event 14">
+                </div>
+                <div class="date-tag" data-key="event.14.date">### - ### AD</div>
+            </div>
+            </div>
+
+            <div id = "era15" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 15')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_14.webp" alt="Event 15">
+                </div>
+                <div class="date-tag" data-key="event.15.date">### - ### AD</div>
+            </div>
+            </div>
+               <div id = "era16" class="timeline-item left-content">
+            <div class="card-wrapper" onclick="alert('Navigate to Event 16')">
+                <div class="image-placeholder">
+                    <img src="static/images/Episode_15.webp" alt="Event 16">
+                </div>
+                <div class="date-tag" data-key="event.16.date">### - ### AD</div>
+            </div>
+            </div>
+    </div>
+
+        <div id="event-info-container" class="hidden">
+            <div class="event-info-card">
+                <h2 id="event-title" data-key="event.1.title">Event Title</h2>
+                <p id="event-date" data-key="event.1.date">Event Date</p>
+                <p id="event-summary" data-key="event.1.summary">Event Summary</p>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="about-container" class="hidden">
+            <div class="about-card">
+                <h2 data-key="about.title">About This Website</h2>
+                
+                <p data-key="about.desc">
+                    An interactive exploration of history.
+                    This website was created to provide an engaging way to learn about Vietnamese history.
+                    Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience.
+                    The side text is a summary of the major event, and clicking the card will reveal more information.
+                    Please Note that this website may not be fully optimized for mobile devices, and is best viewed on a desktop or laptop for the full experience.
+                    However, we are continuously working on improving the design and functionality to make it more accessible for all users.
+                    Additionally, this website is a work in progress, and we plan to add more events and features in the future to provide a richer learning experience about Vietnamese history.
+                    Along with that, we are also working on optimizing the performance and responsiveness of the website to ensure a smooth and enjoyable user experience across all devices.
+                    [Insert ]
+                </p>
+
+                <p>
+                    <span data-key="about.created">Created by:</span>
+                    <strong>Kevin On</strong>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="static/main.js"></script>
+</body>
+</html>

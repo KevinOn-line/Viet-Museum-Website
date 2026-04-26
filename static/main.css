@@ -1,0 +1,378 @@
+/* Update your root and body */
+@font-face {
+    font-family: 'Bender Black Italic';
+    src: url('../fonts/bender/Bender/Jovanny Lemonad - Bender-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+:root {
+    --bg-grey: #3b3b3b; /* Your timeline background color */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-grey); /* Default solid grey */
+    color: white;
+    font-family: 'Georgia', serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+html {
+    overflow-y: scroll; /* Always show vertical scrollbar to prevent layout shift */
+    scroll-behavior: smooth;
+}
+
+.site-title {
+    font-family: 'Bender Black Italic', Georgia, serif;
+    font-style: italic;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Behind everything */
+    opacity: 0.5; /* Always visible at 50%, or 1 if you want it bright */
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+/* Ensure the timeline background doesn't hide the canvas */
+body {
+    background-color: #1a1a1a; /* Darker grey works better for 3D visuals */
+}
+
+main {
+    position: relative;
+    z-index: 10;
+}
+
+/* A class to reveal the background */
+#canvas-container.show-visual {
+    opacity: 1;
+}
+
+/* --- Header & Dropdown --- */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* This ensures the header always takes the full width of the viewport */
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.main-header h1, .header-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    white-space: nowrap; /* Prevents title from wrapping */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.v-events-btn {
+    background: #e0e0e0;
+    color: #222;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #fff;
+    min-width: 220px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    top: 100%;
+    left: 0;
+    color: #333;
+}
+
+.dropdown-header {
+    display: block;
+    padding: 12px;
+    font-size: 11px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover { background: #f1f1f1; }
+.dropdown:hover .dropdown-content { display: block; }
+
+/* --- Navigation Buttons --- */
+.toggle-group { display: flex; gap: 5px; }
+.toggle-btn {
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.toggle-btn.active { background: white; color: black; }
+
+/* --- Timeline Layout --- */
+#timeline-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+.center-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: rgba(255,255,255,0.2);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    width: 100%;
+    scroll-margin-top: 100px;
+}
+
+.card-wrapper {
+    width: 350px;
+    border: var(--card-border);
+    background: #1a1a1a;
+    padding: 5px;
+    text-align: center;
+    z-index: 10;
+    transition: transform 0.3s ease;
+}
+
+.card-wrapper:hover { transform: scale(1.03); }
+
+
+.date-tag { margin-top: 5px; font-weight: bold; color: #ccc; }
+
+
+
+/* =========================
+   SAFE LABEL SYSTEM
+========================= */
+
+.label-group {
+    position: absolute;
+    width: 220px;
+}
+
+/* LEFT SIDE */
+.left-content .label-group {
+    left: 10%;
+    top: 40%;
+    text-align: right;
+}
+
+/* RIGHT SIDE */
+.right-content .label-group {
+    right: 10%;
+    top: 40%;
+    text-align: left;
+}
+
+/* LABEL BOXES */
+/* =========================
+   LABEL BOXES (FIXED)
+========================= */
+
+.label-box {
+    position: relative;        /* REQUIRED so the dashed line attaches */
+    display: inline-block;
+    background: rgba(0,0,0,0.45);
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #eee;
+    margin-bottom: 20px;
+    max-width: 220px;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+/* =========================
+   DASHED LINE (FIXED)
+========================= */
+
+.label-box .line {
+    position: absolute;
+    top: 50%;
+    width: 80px;
+    border-top: 2px dashed rgba(255,255,255,0.5);
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* LEFT SIDE */
+.left-content .label-box .line {
+    right: -90px;
+}
+
+/* RIGHT SIDE */
+.right-content .label-box .line {
+    left: -90px;
+}
+.line {
+    display: 
+none; /* Hidden by default, shown on hover */
+}
+.hidden { display: none; }
+
+/* --- About Section Styling --- */
+#about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Keeps it centered vertically */
+    padding: 20px;
+    background: transparent; /* Let Three.js show through */
+}
+
+.about-card {
+    max-width: 650px;
+    width: 100%;
+    /* 0.6 is the transparency (60% black). 
+       This allows the Three.js background to peek through */
+    background: rgba(0, 0, 0, 0.6); 
+    
+    /* This creates the "Frosted Glass" effect */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); 
+    
+    padding: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.about-card h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.about-card p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+}
+
+.about-card strong {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* Helper to ensure it stays hidden when not toggled */
+.hidden {
+    display: none !important;
+}
+
+/* =========================
+   HEADER LEFT GROUP FIX
+========================= */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* =========================
+   LANGUAGE BUTTON
+========================= */
+.lang-btn {
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+    padding: 10px 14px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    min-width: 50px;
+    text-align: center;
+    flex-shrink: 0;
+
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.lang-btn:hover {
+    background: #666;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 350px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* VERY IMPORTANT */
+    position: relative;
+}
+
+/* Fix image sizing inside placeholder */
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* keeps aspect ratio but fills box */
+    display: block;
+}
+
+/* 1. Force the About container to be full screen height */
+#about-container {
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;    /* Vertically center the card */
+    justify-content: center; /* Horizontally center the card */
+    margin: 0;
+    padding: 0;
+    background: transparent; /* Let the 3D scene show through */
+}
+
+/* 2. Kill the "inline" gap at the bottom of the 3D canvas */
+canvas {
+    display: block;
+}
+
+/* 3. Ensure the background color matches the dark vibe */
+body {
+    background-color: #000; /* Or #1a1a1a to match your exact dark grey */
+    margin: 0;
+}
