@@ -43,7 +43,7 @@ html {
 
 /* Ensure the timeline background doesn't hide the canvas */
 body {
-    background-color: #1a1a1a; /* Darker grey works better for 3D visuals */
+    background: #1a1a1a; /* Fallback solid color */
 }
 
 main {
@@ -86,8 +86,8 @@ main {
 }
 
 .v-events-btn {
-    background: #e0e0e0;
-    color: #222;
+    background: #1a1a1a;
+    color: #f1f1f1;
     padding: 10px 20px;
     border: none;
     font-weight: bold;
@@ -98,12 +98,12 @@ main {
 .dropdown-content {
     display: none;
     position: absolute;
-    background: #fff;
+    background: #1a1a1a;
     min-width: 220px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     top: 100%;
     left: 0;
-    color: #333;
+    color: #f1f1f1;
 }
 
 .dropdown-header {
@@ -117,13 +117,13 @@ main {
 }
 
 .dropdown-content a {
-    color: #333;
+    color: #f1f1f1;
     padding: 12px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover { background: #f1f1f1; }
+.dropdown-content a:hover { background: #444; }
 .dropdown:hover .dropdown-content { display: block; }
 
 /* --- Navigation Buttons --- */
@@ -179,6 +179,10 @@ main {
 
 .date-tag { margin-top: 5px; font-weight: bold; color: #ccc; }
 
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /* =========================
@@ -373,6 +377,37 @@ canvas {
 
 /* 3. Ensure the background color matches the dark vibe */
 body {
-    background-color: #000; /* Or #1a1a1a to match your exact dark grey */
+    background: radial-gradient(circle, #1a1a1a 0%, #000000 60%);
     margin: 0;
+}
+
+.inner-page-wrapper {
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.05); /* Slight "glass" look */
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(212, 175, 55, 0.3); /* Gold border hint */
+}
+
+.hero-section h1 {
+    font-family: 'Your Calligraphy Font', serif;
+    color: #d4af37; /* Gold */
+    font-size: 3rem;
+    text-align: center;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 40px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #fff;
+    color: #000;
 }

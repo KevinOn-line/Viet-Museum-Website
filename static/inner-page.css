@@ -1,0 +1,130 @@
+/* --- Inner Page Specific Styles --- */
+
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --accent-gold: #d4af37;
+    --line-color: #555;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* --- Container & Vertical Line --- */
+.container {
+    position: relative;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* The thick vertical line from your "ahh.jpg" */
+.vertical-divider {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background-color: var(--line-color);
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* --- Content Rows --- */
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px; /* Space between story beats */
+    position: relative;
+    z-index: 2; /* Ensures content is above the line */
+}
+
+.image-box, .info-box {
+    width: 44%; /* Leaves 12% gap for the center line */
+    box-sizing: border-box;
+}
+
+/* --- Image Styling --- */
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 3px solid #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-radius: 4px;
+}
+
+/* --- Text Styling --- */
+.info-box h2 {
+    color: var(--accent-gold);
+    font-size: 2.2rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: serif; /* Gives it a historical look */
+}
+
+.info-box p {
+    font-size: 1.1rem;
+    color: #ccc;
+}
+
+/* --- The Zig-Zag Logic --- */
+/* Default: Image Left, Text Right */
+.row-left {
+    flex-direction: row;
+}
+
+/* Flipped: Text Left, Image Right */
+.row-right {
+    flex-direction: row-reverse;
+}
+
+/* --- Header Tweaks (Reusing main.css classes) --- */
+.main-header {
+    /* These ensure the header stays exactly like the homepage */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.return-btn {
+    text-decoration: none;
+    background: transparent;
+    color: var(--text-color);
+    border: 1px solid #555;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.return-btn:hover {
+    background: var(--accent-gold);
+    color: #000;
+    border-color: var(--accent-gold);
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 850px) {
+    .vertical-divider {
+        display: none; /* Hide line on small screens */
+    }
+    
+    .content-row, .row-right {
+        flex-direction: column; /* Stack vertically on phones */
+        text-align: center;
+    }
+    
+    .image-box, .info-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

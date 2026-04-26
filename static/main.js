@@ -1,14 +1,23 @@
 // ===============================
-// 🌐 LANGUAGE SYSTEM
+// 🌐 LANGUAGE SYSTEM (Dynamic Path Version)
 // ===============================
 let currentTranslations = {};
 const langToggleBtn = document.getElementById("lang-toggle");
 
 async function setLanguage(lang) {
   try {
-    const res = await fetch(`./static/lang/${lang}.json`);
+    // Check if we are inside the 'templates' folder
+    const isTemplatePage = window.location.pathname.includes('/templates/');
+    const pathPrefix = isTemplatePage ? '../' : './';
+    
+    // Fetch from the correct relative path
+    const res = await fetch(`${pathPrefix}static/lang/${lang}.json`);
+    
+    if (!res.ok) throw new Error("File not found");
+    
     currentTranslations = await res.json();
     localStorage.setItem("lang", lang);
+    
     applyTranslations();
     updateLangButton(lang);
   } catch (err) {
@@ -24,7 +33,10 @@ function applyTranslations() {
   document.querySelectorAll("[data-key]").forEach(el => {
     const key = el.dataset.key;
     const value = getValue(currentTranslations, key);
-    if (value) el.textContent = value;
+    if (value) {
+        // Use innerHTML if you want to support <strong> tags in your JSON
+        el.innerHTML = value; 
+    }
   });
 }
 
@@ -40,6 +52,7 @@ if (langToggleBtn) {
   });
 }
 
+// Initial load
 window.addEventListener("DOMContentLoaded", () => {
   const savedLang = localStorage.getItem("lang") || "en";
   setLanguage(savedLang);
