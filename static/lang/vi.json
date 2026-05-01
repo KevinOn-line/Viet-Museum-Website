@@ -19,10 +19,22 @@
     "sixteenth": "Dissociative Recombination"
   },
 
+  "event": {
+    "date1": "2879 BC",
+    "date2": "2525 BC",
+    "date3": "2879 BC",
+    "date4": "2879 BC",
+    "date5": "2879 BC",
+    "date6": "2879 BC",
+    "date7": "2879 BC",
+    "date8": "2879 BC",
+    "date9": "2879 BC",
+    "date10": "2879 BC"
+  },
+
   "about": {
     "title": "Hello",
     "desc": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users.",
-
     "created": "Created by:"
   },
   

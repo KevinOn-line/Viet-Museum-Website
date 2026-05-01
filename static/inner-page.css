@@ -63,14 +63,14 @@ body {
 /* --- Text Styling --- */
 .info-box h2 {
     color: var(--accent-gold);
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin-top: 0;
     margin-bottom: 15px;
     font-family: serif; /* Gives it a historical look */
 }
 
 .info-box p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #ccc;
 }
 
