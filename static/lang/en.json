@@ -28,7 +28,7 @@
 
   "dragon_fairy": {
     "union_h2": "The Sacred Union",
-    "union_p": "AHHHHHHHHHHHH",
+    "union_p": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users.",
     "eggs_h2": "One Hundred Eggs",
     "eggs_p": "Legend says they had 100 sons..."
   }
