@@ -2,34 +2,30 @@
   
   "era": {
     "first": "Lạc Long Quân và Âu Cơ",
-    "second": "EVIL TIME PT2",
-    "third": "Separated Hearts",
-    "fourth": "Stinging Shock",
-    "fifth": "Burning Run",
-    "sixth": "Necessary Solutions",
-    "seventh": "Partial Nercosis",
-    "eighth": "The Birth of Tragedy",
-    "ninth": "Roaring Flare",
-    "tenth": "Stormwatch",
-    "eleventh": "Shatterpoint",
-    "twelfth": "Return to Mist",
-    "thirteenth": "All Quiet Under The Thunder",
-    "fourteenth": "The Whirlpool That Is Passion",
-    "fifteenth": "Absolved Will Be The Seekers",
-    "sixteenth": "Dissociative Recombination"
+    "second": "Hùng Vương Kings",
+    "third": "Hai Bà Trưng",
+    "fourth": "Ngô Quyền and the Battle of Bạch Đằng River",
+    "fifth": "Đinh Bộ Lĩnh",
+    "sixth": "Lý Thường Kiệt",
+    "seventh": "Trần Hưng Đạo",
+    "eighth": "Lê Lợi",
+    "ninth": "Vua Quang Trung",
+    "tenth": "WWII Era",
+    "eleventh": "Vietnam War"
   },
 
  "event": {
     "date1": "2879 BC",
-    "date2": "2525 BC",
-    "date3": "2879 BC",
-    "date4": "2879 BC",
-    "date5": "2879 BC",
-    "date6": "2879 BC",
-    "date7": "2879 BC",
-    "date8": "2879 BC",
-    "date9": "2879 BC",
-    "date10": "2879 BC"
+    "date2": "2879-258 BC",
+    "date3": "14-43 AD",
+    "date4": "899-944 AD",
+    "date5": "968-979 AD ",
+    "date6": "1019-1105 AD",
+    "date7": "1226-1300 AD",
+    "date8": "1385-1433 AD",
+    "date9": "1753-1792 AD",
+    "date10": "1858-1954 AD",
+    "date11": "1955-1975 AD"
   },
 
   "about": {
@@ -46,5 +42,86 @@
     "eggs_p": "Lac Long Quan and Au Co met and fell in love and they later got married. Not long after, Au Co became pregnant and gave birth to a sack containing 100 eggs. The 100 eggs soon hatched into 100 children.",
     "after_h2": "Great Separation",
     "after_p": "However, due to their differences as the great dragon and the fairy, Lac Long Quan and Au Co decided to part ways. Fifty children followed their mother up the mountain. They learned hunting and farming in the highlands. Fifty children followed their father to sea. They became fishermen and farmers in the delta region. The eldest son of Lac Long Quan and Au Co was the first king of Vietnam, known as Hung Vuong. And thus, the nation of Vietnam was established."
+  },
+  "Hung_Vuong": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+  "Hai_Ba": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+  "Bach_Dang": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+  "dinh_bo_linh": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+
+  "ly_thuong_kiet": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+  "tran_hung_dao": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+  "le_loi": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+  "quang_trung": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
+  },
+    "WWII": {
+      "union_h2": "",
+      "union_p": "",
+      "eggs_h2": "",
+      "eggs_p": "",
+      "after_h2": "",
+      "after_p": ""
+    },
+  "Vietnam_War": {
+    "union_h2": "",
+    "union_p": "",
+    "eggs_h2": "",
+    "eggs_p": "",
+    "after_h2": "",
+    "after_p": ""
   }
 }

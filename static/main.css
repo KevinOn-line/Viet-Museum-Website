@@ -1,14 +1,4 @@
-/* Update your root and body */
-@font-face {
-    font-family: 'Bender Black Italic';
-    src: url('../fonts/bender/Bender/Jovanny Lemonad - Bender-BlackItalic.otf') format('opentype');
-    font-weight: 900;
-    font-style: italic;
-}
 
-:root {
-    --bg-grey: #3b3b3b; /* Your timeline background color */
-}
 
 body, html {
     margin: 0;
@@ -24,10 +14,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.site-title {
-    font-family: 'Bender Black Italic', Georgia, serif;
-    font-style: italic;
-}
+
 
 #canvas-container {
     position: fixed;
@@ -41,10 +28,6 @@ html {
     pointer-events: none;
 }
 
-/* Ensure the timeline background doesn't hide the canvas */
-body {
-    background: #1a1a1a; /* Fallback solid color */
-}
 
 main {
     position: relative;
@@ -93,6 +76,8 @@ main {
     font-weight: bold;
     cursor: pointer;
     border-radius: 4px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
 }
 
 .dropdown-content {
@@ -117,10 +102,12 @@ main {
 }
 
 .dropdown-content a {
+    font-family: 'Courier New', Courier, monospace;
     color: #f1f1f1;
     padding: 12px;
     text-decoration: none;
     display: block;
+    font-size: 13px;
 }
 
 .dropdown-content a:hover { background: #444; }
@@ -184,76 +171,6 @@ main {
     color: inherit;
 }
 
-
-/* =========================
-   SAFE LABEL SYSTEM
-========================= */
-
-.label-group {
-    position: absolute;
-    width: 220px;
-}
-
-/* LEFT SIDE */
-.left-content .label-group {
-    left: 10%;
-    top: 40%;
-    text-align: right;
-}
-
-/* RIGHT SIDE */
-.right-content .label-group {
-    right: 10%;
-    top: 40%;
-    text-align: left;
-}
-
-/* LABEL BOXES */
-/* =========================
-   LABEL BOXES (FIXED)
-========================= */
-
-.label-box {
-    position: relative;        /* REQUIRED so the dashed line attaches */
-    display: inline-block;
-    background: rgba(0,0,0,0.45);
-    padding: 10px 14px;
-    border-radius: 6px;
-    border: 1px solid rgba(255,255,255,0.25);
-    color: #eee;
-    margin-bottom: 20px;
-    max-width: 220px;
-    line-height: 1.4;
-    box-sizing: border-box;
-}
-
-/* =========================
-   DASHED LINE (FIXED)
-========================= */
-
-.label-box .line {
-    position: absolute;
-    top: 50%;
-    width: 80px;
-    border-top: 2px dashed rgba(255,255,255,0.5);
-    transform: translateY(-50%);
-    pointer-events: none;
-}
-
-/* LEFT SIDE */
-.left-content .label-box .line {
-    right: -90px;
-}
-
-/* RIGHT SIDE */
-.right-content .label-box .line {
-    left: -90px;
-}
-.line {
-    display: 
-none; /* Hidden by default, shown on hover */
-}
-.hidden { display: none; }
 
 /* --- About Section Styling --- */
 #about-container {
@@ -364,7 +281,7 @@ none; /* Hidden by default, shown on hover */
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 1s ease;
+    transition: opacity 2s ease;
 }
 .image-placeholder:hover img:not(.img-alt) {
     opacity: 0;

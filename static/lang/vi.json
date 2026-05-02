@@ -1,7 +1,7 @@
 {
   
   "era": {
-    "first": "EVIL TIME PT1",
+    "first": "Lạc Long Quân và Âu Cơ",
     "second": "EVIL TIME PT2",
     "third": "Separated Hearts",
     "fourth": "Stinging Shock",
@@ -19,7 +19,7 @@
     "sixteenth": "Dissociative Recombination"
   },
 
-  "event": {
+ "event": {
     "date1": "2879 BC",
     "date2": "2525 BC",
     "date3": "2879 BC",
@@ -33,15 +33,18 @@
   },
 
   "about": {
-    "title": "Hello",
-    "desc": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users.",
+    "title": "About This Website",
+    "desc": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users. ",
+
     "created": "Created by:"
   },
-  
+
   "dragon_fairy": {
-    "union_h2": "The Sacred Union",
-    "union_p": "Lạc Long Quân and Âu Cơ met and fell in love...",
+    "union_h2": "Insert Vietnamese Title Here",
+    "union_p": "Once upon a time, from the bottom of the sea, a great dragon rose up and transformed into a very handsome young man, Lac Long Quan, the lord of the sea. At the same time, Princess Au Co was a fairy of extraordinary beauty who descended from the mountains. Au Co was of the fairy lineage that ruled the mountainous region.",
     "eggs_h2": "One Hundred Eggs",
-    "eggs_p": "Legend says they had 100 sons..."
+    "eggs_p": "Lac Long Quan and Au Co met and fell in love and they later got married. Not long after, Au Co became pregnant and gave birth to a sack containing 100 eggs. The 100 eggs soon hatched into 100 children.",
+    "after_h2": "Great Separation",
+    "after_p": "However, due to their differences as the great dragon and the fairy, Lac Long Quan and Au Co decided to part ways. Fifty children followed their mother up the mountain. They learned hunting and farming in the highlands. Fifty children followed their father to sea. They became fishermen and farmers in the delta region. The eldest son of Lac Long Quan and Au Co was the first king of Vietnam, known as Hung Vuong. And thus, the nation of Vietnam was established."
   }
 }
