@@ -1,7 +1,6 @@
 {
-  
   "era": {
-    "first": "Lạc Long Quân và Âu Cơ",
+    "first": "Lạc Long Quân and Âu Cơ",
     "second": "Hùng Vương Kings",
     "third": "Hai Bà Trưng",
     "fourth": "Ngô Quyền and the Battle of Bạch Đằng River",
@@ -13,8 +12,7 @@
     "tenth": "WWII Era",
     "eleventh": "Vietnam War"
   },
-
- "event": {
+  "event": {
     "date1": "2879 BC",
     "date2": "2879-258 BC",
     "date3": "14-43 AD",
@@ -27,101 +25,97 @@
     "date10": "1858-1954 AD",
     "date11": "1955-1975 AD"
   },
-
   "about": {
     "title": "About This Website",
-    "desc": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users. ",
-
+    "desc": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users.",
     "created": "Created by:"
   },
-
   "dragon_fairy": {
     "union_h2": "The Sacred Union",
-    "union_p": "Once upon a time, from the bottom of the sea, a great dragon rose up and transformed into a very handsome young man, Lac Long Quan, the lord of the sea. At the same time, Princess Au Co was a fairy of extraordinary beauty who descended from the mountains. Au Co was of the fairy lineage that ruled the mountainous region.",
+    "union_p": "Once upon a time, from the bottom of the sea, a great dragon rose up and transformed into a very handsome young man, Lạc Long Quân, the lord of the sea. At the same time, Princess Âu Cơ was a fairy of extraordinary beauty who descended from the mountains. Âu Cơ was of the fairy lineage that ruled the mountainous region.",
     "eggs_h2": "One Hundred Eggs",
-    "eggs_p": "Lac Long Quan and Au Co met and fell in love and they later got married. Not long after, Au Co became pregnant and gave birth to a sack containing 100 eggs. The 100 eggs soon hatched into 100 children.",
+    "eggs_p": "Lạc Long Quân and Âu Cơ met and fell in love and they later got married. Not long after, Âu Cơ became pregnant and gave birth to a sack containing 100 eggs. The 100 eggs soon hatched into 100 children.",
     "after_h2": "Great Separation",
-    "after_p": "However, due to their differences as the great dragon and the fairy, Lac Long Quan and Au Co decided to part ways. Fifty children followed their mother up the mountain. They learned hunting and farming in the highlands. Fifty children followed their father to sea. They became fishermen and farmers in the delta region. The eldest son of Lac Long Quan and Au Co was the first king of Vietnam, known as Hung Vuong. And thus, the nation of Vietnam was established."
+    "after_p": "However, due to their differences as the great dragon and the fairy, Lạc Long Quân and Âu Cơ decided to part ways. Fifty children followed their mother up the mountain. They learned hunting and farming in the highlands. Fifty children followed their father to sea. They became fishermen and farmers in the delta region. The eldest son of Lạc Long Quân and Âu Cơ was the first king of Vietnam, known as Hùng Vương. And thus, the nation of Vietnam was established."
   },
   "Hung_Vuong": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The First Dynasty",
+    "union_p": "When the country was first established, Vietnam was called Văn Lang. The kings of Văn Lang were called Hùng Vương. The eldest son of Lạc Long Quân and Âu Cơ was King Hùng Dương Vương, the first king of Vietnam. He was succeeded by his son, and continued by 17 more generations of kings, all of whom were called Hùng Vương. The Hùng Kings ruled over Vietnam for more than 2,000 years, from 2879 BC to 258 BC.",
+    "eggs_h2": "The End",
+    "eggs_p": "The last king of the dynasty, Hùng Duệ Vương, was defeated by Thục Phán, king of Âu Lạc in 258 BC, marking the end of the Hùng Kings' rule. Thục Phán was later defeated by Triệu Đà, a former Qin general, who established the Triệu dynasty. The country was renamed Nam Việt, and the Triệu dynasty ruled for 93 years until it was annexed by the Chinese Han dynasty in 111 BC.",
+    "after_h2": "Their Legacy",
+    "after_p": "Every year on the 10th day of the 3rd lunar month, our people celebrate the Hùng Kings' Ancestral Anniversary and proudly consider themselves descendants of the Dragon and the Immortal. During the festival, the Vietnamese people pay tribute to the Hùng Kings by offering incense and food to their home altar. Additionally, people within Vietnam make a spiritual journey to the Hùng Temple, which is located on the mountain where the 50 children of Âu Cơ lived."
   },
   "Hai_Ba": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Beginning of Resistance",
+    "union_p": "In 40 AD, the Trưng Sisters (Trưng Trắc and Trưng Nhị) were the first to resist the Han army. They were daughters of a powerful lord in the Red River Delta. After their father was killed by the Han, they rallied an army and led a rebellion against the Chinese. They successfully drove the Chinese out of Vietnam and established an independent kingdom that lasted for three years until the Han returned with a larger army and defeated them in 43 AD.",
+    "eggs_h2": "Brave Sacrifice",
+    "eggs_p": "To prevent capture, the sisters chose to drown themselves in the Hát River rather than be taken prisoner. After this rebellion, the Chinese general, Mã Viện, erected copper pillars marking the boundary of Chinese land. Engraved into the copper pillars were statements that if these copper pillars were to fall, the Vietnamese would be destroyed.",
+    "after_h2": "Legacy of Resistance",
+    "after_p": "There were several more rebellions that occurred during the 1000 years of Chinese Domination. Trưng Trắc and Trưng Nhị were the first two heroic female generals who resisted Chinese domination. The Vietnamese people have erected temples in many places to commemorate them."
   },
   "Bach_Dang": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Battle of Bạch Đằng",
+    "union_p": "Ngô Quyền was a brilliant general. He defeated the Chinese Southern Han army at the Battle of Bạch Đằng River in 938, ending 1000 years of Chinese domination. Due to many of the Chinese forces invading through the sea, Ngô Quyền chose to fight them at Bạch Đằng River, located north of Vietnam's capital. Ngô Quyền's strategy was to take advantage of the tides and the river's geography to trap the Chinese navy.",
+    "eggs_h2": "The Strategy",
+    "eggs_p": "Ngô Quyền ordered his soldiers to plant iron-tipped stakes in the bed of the Bạch Đằng River. When the Chinese army sent ships to attack our forces, the tide receded very quickly, trapping and sinking their ships. Ngô Quyền ordered his troops to fight the enemy. Ngô Quyền ascended to the throne in 939 and brought independence to Vietnam.",
+    "after_h2": "Start of Independence",
+    "after_p": "Ngô Quyền's victory at the Battle of Bạch Đằng River marked the end of Chinese domination and the beginning of an independent Vietnamese state. Ngô Quyền's victory is celebrated as a significant event in Vietnamese history, and the Battle of Bạch Đằng River is remembered as a symbol of Vietnamese resistance and resilience against foreign invaders."
   },
   "dinh_bo_linh": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Period of Chaos",
+    "union_p": "After the death of Ngô Quyền in 944, the throne was usurped, leading to the Rebellion of the 12 Warlords (Loạn 12 Sứ Quân). The country was fractured and vulnerable to a Southern expansion by the Chinese Song Dynasty. Vietnam desperately needed a single leader to unify the land and defend its borders.",
+    "eggs_h2": "The Rise of Đinh Bộ Lĩnh",
+    "eggs_p": "Born in 924, Đinh Bộ Lĩnh showed leadership early in life while tending buffaloes, where he led other children in mock battles with reed flags. As an adult, he rallied these childhood friends and local patriots into a disciplined military force. Known for his bravery and strategic mind, he was honored as the King of Ten Thousand Victories (Vạn Thắng Vương).",
+    "after_h2": "Unification and Foundation of the Nation",
+    "after_p": "In just one year, Đinh Bộ Lĩnh defeated the 12 warlords and unified the country. In 968, he became Emperor, naming the nation Đại Cồ Việt and establishing the capital in Hoa Lư. He created the country's first currency and a centralized government, laying the foundation for Vietnam's long-term independence and strength."
   },
-
   "ly_thuong_kiet": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Skilled General",
+    "union_p": "Lý Thường Kiệt was a skilled general during the Lý Dynasty. He is known for defeating the Song Dynasty and pacifying Champa.",
+    "eggs_h2": "The Strategic Victory",
+    "eggs_p": "Upon learning that the Song dynasty in China intended to invade Vietnam, King Lý Nhân Tông dispatched Lý Thường Kiệt with 100,000 troops to attack the Song. Within three days, they captured a Chinese city, killing approximately 8,000 Chinese soldiers.",
+    "after_h2": "Poem of Independence",
+    "after_p": "To boost the morale of his soldiers, Lý Thường Kiệt wrote four verses (Nam Quốc Sơn Hà). This poem is considered the first Declaration of Independence of Vietnam, affirming the sovereignty of the Đại Việt government over its territories. The poem is as follows: The mountains and rivers of the Southern land belong to the Southern Emperor, their boundaries clearly defined in the book of heaven. How dare these rebellious bandits invade? You will surely witness your utter defeat."
   },
   "tran_hung_dao": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Mongol Invasions",
+    "union_p": "The Mongol Empire was an unmatched superpower that conquered lands from Asia to Europe. Under Kublai Khan, they launched three massive campaigns to annex Vietnam, bringing a legendary army of cavalry and siege masters to the borders of the South.",
+    "eggs_h2": "The Strategy of Saint Trần",
+    "eggs_p": "General Trần Hưng Đạo led a total national resistance. In 1288, he utilized the Bạch Đằng River's tides to impale the Mongol fleet on iron-tipped stakes. This decisive victory shattered the Mongol naval power and forced the invaders to retreat for the final time.",
+    "after_h2": "The Spirit of the Young Marquis",
+    "after_p": "Trần Quốc Toản, only 16, was excluded from the war council. In a moment of silent rage, he crushed an orange in his hand. He later raised a private army and charged into battle with a banner reading 'Phá Cường Địch, Báo Hoàng Ân' (Destroy the Powerful Enemy, Repay the Emperor's Favor)."
   },
   "le_loi": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Ming Occupation",
+    "union_p": "Following the decline of the Trần Dynasty, the Chinese Ming Dynasty annexed Vietnam, imposing harsh rule. In 1418, a wealthy landowner named Lê Lợi launched the Lam Sơn Uprising. He declared himself the 'Pacifying King' (Bình Định Vương), rallying patriots to wage a guerrilla war against the invaders.",
+    "eggs_h2": "Ten Years of Resistance",
+    "eggs_p": "For a decade, Lê Lợi and his brilliant strategist Nguyễn Trãi fought the Ming forces through rugged mountains. Their persistence eventually broke the Ming army's resolve. By 1427, the last Ming garrisons were defeated, and Lê Lợi established the Later Lê Dynasty, initiating a golden era of Vietnamese culture.",
+    "after_h2": "The Legend of the Returned Sword",
+    "after_p": "Legend says that the Golden Turtle God lent Lê Lợi a divine sword to drive out the Ming. After the victory, while the King was boating on a lake in Thăng Long, the turtle emerged to reclaim the weapon. The King returned the sword, and the lake was renamed Hoàn Kiếm (Lake of the Returned Sword)."
   },
   "quang_trung": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "The Sword of the West",
+    "union_p": "Born in 1753, Nguyễn Huệ was a military prodigy who led the Tây Sơn movement to end centuries of internal division. His tactical genius and unstoppable momentum dismantled the powerful Trịnh and Nguyễn clans, paving the way for a unified nation.",
+    "eggs_h2": "The Miracle of Rạch Gầm - Xoài Mút",
+    "eggs_p": "In 1785, Nguyễn Huệ faced 50,000 Siamese invaders in the Mekong Delta. Through a masterful naval ambush at Rạch Gầm - Xoài Mút, he utilized hidden artillery and terrain to annihilate the enemy fleet in a single day, protecting the southern borders.",
+    "after_h2": "The Lightning March",
+    "after_p": "In 1789, Emperor Quang Trung led his army on a legendary 'Lightning March' to liberate the capital. His forces struck 290,000 Qing troops during the Lunar New Year, achieving a decisive victory at Ngọc Hồi - Đống Đa and ending the northern threat forever."
   },
-    "WWII": {
-      "union_h2": "",
-      "union_p": "",
-      "eggs_h2": "",
-      "eggs_p": "",
-      "after_h2": "",
-      "after_p": ""
-    },
+  "WWII": {
+    "union_h2": "The Double Occupation",
+    "union_p": "In 1940, the geopolitical landscape shifted as Imperial Japanese forces moved into Vietnam. The nation fell under a 'Double Yoke' of oppression, as the French colonial administration collaborated with the Japanese occupiers. This era was defined by extreme resource exploitation.",
+    "eggs_h2": "The August Revolution",
+    "eggs_p": "As World War II concluded in 1945, the Việt Minh launched a rapid nationwide uprising known as the August Revolution. Across the country, colonial structures were dismantled. This culminated on September 2, 1945, when Hồ Chí Minh read the Declaration of Independence in Hanoi.",
+    "after_h2": "The First Indochina War",
+    "after_p": "The struggle transitioned into a total war as France attempted to re-establish its colonial empire. This conflict reached its tactical peak at Điện Biên Phủ in 1954. Under General Võ Nguyên Giáp, Vietnamese forces executed a monumental feat of logistics, forcing a surrender that ended Western colonial presence."
+  },
   "Vietnam_War": {
-    "union_h2": "",
-    "union_p": "",
-    "eggs_h2": "",
-    "eggs_p": "",
-    "after_h2": "",
-    "after_p": ""
+    "union_h2": "A Nation Divided",
+    "union_p": "Following the 1954 Geneva Accords, Vietnam was temporarily partitioned at the 17th Parallel. The North became a socialist state, while the South was backed by the United States. This division led to a prolonged conflict that became a focal point of the global Cold War.",
+    "eggs_h2": "The Trail and the Jungle",
+    "eggs_p": "The conflict was defined by the 'Hồ Chí Minh Trail,' a complex network of paths used to supply the Southern resistance. Despite the intervention of over half a million American troops, the decentralized tactics and endurance of the northern forces turned the conflict into an unwinnable war of attrition.",
+    "after_h2": "The Fall of Saigon",
+    "after_p": "The war concluded on April 30, 1975, when tanks crashed through the gates of the Independence Palace in Saigon. The country was officially reunified in 1976 as the Socialist Republic of Vietnam, marking the final end to a century of foreign conflict."
   }
 }

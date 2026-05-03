@@ -1,50 +1,134 @@
 {
-  
   "era": {
     "first": "Lạc Long Quân và Âu Cơ",
-    "second": "EVIL TIME PT2",
-    "third": "Separated Hearts",
-    "fourth": "Stinging Shock",
-    "fifth": "Burning Run",
-    "sixth": "Necessary Solutions",
-    "seventh": "Partial Nercosis",
-    "eighth": "The Birth of Tragedy",
-    "ninth": "Roaring Flare",
-    "tenth": "Stormwatch",
-    "eleventh": "Shatterpoint",
-    "twelfth": "Return to Mist",
-    "thirteenth": "All Quiet Under The Thunder",
-    "fourteenth": "The Whirlpool That Is Passion",
-    "fifteenth": "Absolved Will Be The Seekers",
-    "sixteenth": "Dissociative Recombination"
+    "second": "Thời đại Hùng Vương",
+    "third": "Hai Bà Trưng",
+    "fourth": "Ngô Quyền và Trận Bạch Đằng",
+    "fifth": "Đinh Bộ Lĩnh",
+    "sixth": "Lý Thường Kiệt",
+    "seventh": "Trần Hưng Đạo",
+    "eighth": "Lê Lợi",
+    "ninth": "Vua Quang Trung",
+    "tenth": "Thời kỳ Thế chiến II",
+    "eleventh": "Chiến tranh Việt Nam"
   },
 
- "event": {
-    "date1": "2879 BC",
-    "date2": "2525 BC",
-    "date3": "2879 BC",
-    "date4": "2879 BC",
-    "date5": "2879 BC",
-    "date6": "2879 BC",
-    "date7": "2879 BC",
-    "date8": "2879 BC",
-    "date9": "2879 BC",
-    "date10": "2879 BC"
+  "event": {
+    "date1": "2879 TCN",
+    "date2": "2879-258 TCN",
+    "date3": "14-43 SCN",
+    "date4": "899-944 SCN",
+    "date5": "968-979 SCN",
+    "date6": "1019-1105 SCN",
+    "date7": "1226-1300 SCN",
+    "date8": "1385-1433 SCN",
+    "date9": "1753-1792 SCN",
+    "date10": "1858-1954 SCN",
+    "date11": "1955-1975 SCN"
   },
 
   "about": {
-    "title": "About This Website",
-    "desc": "An interactive exploration of history. This website was created to provide an engaging way to learn about Vietnamese history. Each timeline event is represented by a card that can be clicked for more details, and the background features a dynamic 3D visual created with Three.js to enhance the user experience. The side text is a summary of the major event, and clicking the card will reveal more information. Please note that this website may not be fully optimized for mobile devices and is best viewed on a desktop or laptop for the full experience. However, we are continuously working on improving the design and functionality to make it more accessible for all users. ",
-
-    "created": "Created by:"
+    "title": "Về Trang Web Này",
+    "desc": "Một hành trình khám phá lịch sử tương tác. Trang web này được tạo ra nhằm mang đến phương thức học tập thú vị về lịch sử Việt Nam. Mỗi sự kiện trên dòng thời gian được đại diện bởi một thẻ bài; người dùng có thể nhấp vào để xem chi tiết. Nền trang web sử dụng hình ảnh 3D động được tạo bởi Three.js để tăng cường trải nghiệm người dùng. Phần văn bản bên cạnh tóm tắt sự kiện chính và việc nhấp vào thẻ sẽ hiển thị thêm thông tin. Lưu ý rằng trang web này có thể chưa được tối ưu hóa hoàn toàn cho thiết bị di động và hiển thị tốt nhất trên máy tính để bàn hoặc laptop. Tuy nhiên, chúng tôi đang liên tục cải thiện thiết kế và chức năng để trang web dễ tiếp cận hơn với tất cả người dùng.",
+    "created": "Người sáng tạo:"
   },
 
   "dragon_fairy": {
-    "union_h2": "Insert Vietnamese Title Here",
-    "union_p": "Once upon a time, from the bottom of the sea, a great dragon rose up and transformed into a very handsome young man, Lac Long Quan, the lord of the sea. At the same time, Princess Au Co was a fairy of extraordinary beauty who descended from the mountains. Au Co was of the fairy lineage that ruled the mountainous region.",
-    "eggs_h2": "One Hundred Eggs",
-    "eggs_p": "Lac Long Quan and Au Co met and fell in love and they later got married. Not long after, Au Co became pregnant and gave birth to a sack containing 100 eggs. The 100 eggs soon hatched into 100 children.",
-    "after_h2": "Great Separation",
-    "after_p": "However, due to their differences as the great dragon and the fairy, Lac Long Quan and Au Co decided to part ways. Fifty children followed their mother up the mountain. They learned hunting and farming in the highlands. Fifty children followed their father to sea. They became fishermen and farmers in the delta region. The eldest son of Lac Long Quan and Au Co was the first king of Vietnam, known as Hung Vuong. And thus, the nation of Vietnam was established."
+    "union_h2": "Mối Lương Duyên Thần Thánh",
+    "union_p": "Ngày xửa ngày xưa, từ dưới đáy biển sâu, một vị rồng thiêng đã hiện lên và hóa thân thành một chàng trai tuấn tú, đó là Lạc Long Quân, vị vua của biển cả. Cùng lúc đó, nàng công chúa Âu Cơ với vẻ đẹp thoát tục từ trên núi cao xuống thăm trần gian. Âu Cơ thuộc dòng dõi tiên tộc cai quản vùng núi non hùng vĩ.",
+    "eggs_h2": "Bọc Trăm Trứng",
+    "eggs_p": "Lạc Long Quân và Âu Cơ gặp gỡ, nảy sinh tình cảm và nên duyên vợ chồng. Không lâu sau, Âu Cơ mang thai và sinh ra một bọc trăm trứng. Trăm quả trứng ấy sớm nở ra một trăm người con khôi ngô, khỏe mạnh.",
+    "after_h2": "Cuộc Chia Ly Vĩ Đại",
+    "after_p": "Tuy nhiên, do sự khác biệt giữa dòng dõi Rồng và Tiên, Lạc Long Quân và Âu Cơ quyết định chia tay nhau. Năm mươi người con theo mẹ lên núi, học cách săn bắn và trồng trọt trên vùng cao. Năm mươi người con theo cha xuống biển, trở thành ngư dân và nông dân vùng đồng bằng. Người con cả của Lạc Long Quân và Âu Cơ trở thành vị vua đầu tiên của Việt Nam, lấy hiệu là Hùng Vương. Và từ đó, quốc gia Việt Nam được hình thành."
+  },
+
+  "Hung_Vuong": {
+    "union_h2": "Triều Đại Đầu Tiên",
+    "union_p": "Khi đất nước mới được thành lập, Việt Nam có tên gọi là Văn Lang. Các vị vua của Văn Lang được gọi là Hùng Vương. Người con cả của Lạc Long Quân và Âu Cơ là Hùng Dương Vương, vị vua đầu tiên. Ngôi vị được truyền lại cho con cháu qua 18 đời, tất cả đều lấy hiệu là Hùng Vương. Các vua Hùng đã cai trị Việt Nam trong hơn 2.000 năm, từ năm 2879 TCN đến 258 TCN.",
+    "eggs_h2": "Sự Kết Thúc",
+    "eggs_p": "Vị vua cuối cùng của triều đại, Hùng Duệ Vương, đã bị Thục Phán (vua nước Âu Lạc) đánh bại vào năm 258 TCN, đánh dấu sự kết thúc của thời đại Hùng Vương. Thục Phán sau đó bị Triệu Đà, một cựu tướng nhà Tần, đánh bại. Triệu Đà lập nên nhà Triệu, đổi tên nước thành Nam Việt và cai trị trong 93 năm cho đến khi bị nhà Hán (Trung Quốc) thôn tính vào năm 111 TCN.",
+    "after_h2": "Di Sản Để Lại",
+    "after_p": "Hàng năm vào ngày mùng 10 tháng 3 âm lịch, nhân dân ta lại tổ chức ngày Giỗ Tổ Hùng Vương và tự hào coi mình là con rồng cháu tiên. Trong dịp lễ này, người Việt bày tỏ lòng thành kính với các vua Hùng bằng cách dâng hương và lễ vật. Ngoài ra, nhiều người còn thực hiện cuộc hành hương về Đền Hùng, nằm trên ngọn núi nơi 50 người con của Âu Cơ từng sinh sống."
+  },
+
+  "Hai_Ba": {
+    "union_h2": "Khởi Đầu Cuộc Kháng Chiến",
+    "union_p": "Vào năm 40 SCN, Hai Bà Trưng (Trưng Trắc và Trưng Nhị) là những người đầu tiên đứng lên kháng chiến chống quân Hán. Họ là con gái của một lạc tướng quyền lực vùng đồng bằng sông Hồng. Sau khi chồng bà Trưng Trắc bị quân Hán sát hại, hai bà đã tập hợp quân đội và lãnh đạo cuộc khởi nghĩa. Họ đã thành công đuổi quân Hán ra khỏi bờ cõi và lập nên một vương quốc độc lập trong ba năm cho đến khi quân Hán quay lại với quân đội lớn hơn và đánh bại họ vào năm 43 SCN.",
+    "eggs_h2": "Sự Hy Sinh Anh Dũng",
+    "eggs_p": "Để không rơi vào tay giặc, hai bà đã chọn cách gieo mình xuống dòng sông tuẫn tiết thay vì chịu bị bắt làm tù binh. Sau cuộc khởi nghĩa này, tướng nhà Hán là Mã Viện đã dựng các cột đồng cắm mốc biên giới. Trên các cột đồng có khắc dòng chữ đe dọa rằng nếu các cột đồng này đổ, người Việt sẽ bị diệt vong.",
+    "after_h2": "Di Sản Kháng Chiến",
+    "after_p": "Dù sau đó còn nhiều cuộc khởi nghĩa diễn ra trong suốt 1000 năm Bắc thuộc, Trưng Trắc và Trưng Nhị vẫn luôn được nhớ tới là hai vị nữ tướng anh hùng đầu tiên kháng chiến chống ngoại xâm. Nhân dân Việt Nam đã lập đền thờ ở nhiều nơi để tưởng nhớ công lao của hai bà."
+  },
+
+  "Bach_Dang": {
+    "union_h2": "Trận Chiến Bạch Đằng",
+    "union_p": "Ngô Quyền là một vị tướng lỗi lạc. Ông đã đánh bại quân Nam Hán tại trận Bạch Đằng năm 938, chấm dứt 1000 năm Bắc thuộc. Nhận thấy quân giặc tấn công bằng đường thủy, Ngô Quyền chọn sông Bạch Đằng làm trận địa. Chiến thuật của ông là tận dụng thủy triều và địa hình sông ngòi để bẫy hạm đội quân địch.",
+    "eggs_h2": "Chiến Thuật Cọc Nhọn",
+    "eggs_p": "Ngô Quyền ra lệnh cho quân lính đóng những cọc gỗ đầu bịt sắt xuống lòng sông Bạch Đằng. Khi thuyền chiến quân Hán tiến vào, thủy triều rút xuống rất nhanh, khiến thuyền giặc bị mắc cạn và bị cọc nhọn đâm thủng. Ngô Quyền tổng tấn công và giành thắng lợi hoàn toàn. Ông lên ngôi vua năm 939, chính thức mở ra kỷ nguyên độc lập cho Việt Nam.",
+    "after_h2": "Bình Minh Độc Lập",
+    "after_p": "Chiến thắng của Ngô Quyền trên sông Bạch Đằng đánh dấu bước ngoặt lịch sử, chấm dứt thời kỳ đô hộ của phong kiến phương Bắc. Trận Bạch Đằng mãi mãi là biểu tượng cho ý chí quật cường và trí tuệ quân sự của người Việt trước các thế lực xâm lược."
+  },
+
+  "dinh_bo_linh": {
+    "union_h2": "Thời Kỳ Hỗn Loạn",
+    "union_p": "Sau cái chết của Ngô Quyền vào năm 944, triều chính bị thâu tóm dẫn đến loạn 12 Sứ quân. Đất nước bị chia cắt và đứng trước nguy cơ xâm lược từ nhà Tống. Việt Nam lúc bấy giờ cấp thiết cần một vị lãnh đạo tài ba để thống nhất giang sơn và bảo vệ biên cương.",
+    "eggs_h2": "Sự Trỗi Dậy Của Đinh Bộ Lĩnh",
+    "eggs_p": "Sinh năm 924, Đinh Bộ Lĩnh sớm bộc lộ khả năng lãnh đạo từ nhỏ khi cùng đám trẻ chăn trâu tập trận giả với cờ lau. Khi trưởng thành, ông tập hợp bạn bè thuở nhỏ và những người yêu nước thành một đội quân kỷ luật. Với lòng dũng cảm và mưu lược, ông được tôn vinh là Vạn Thắng Vương.",
+    "after_h2": "Thống Nhất Và Định Quốc",
+    "after_p": "Chỉ trong một năm, Đinh Bộ Lĩnh đã dẹp tan 12 sứ quân, thống nhất đất nước. Năm 968, ông lên ngôi Hoàng đế, đặt tên nước là Đại Cồ Việt, định đô tại Hoa Lư. Ông cho đúc đồng tiền đầu tiên và thiết lập bộ máy chính quyền trung ương, đặt nền móng vững chắc cho nền độc lập lâu dài của Việt Nam."
+  },
+
+  "ly_thuong_kiet": {
+    "union_h2": "Vị Tướng Tài Ba",
+    "union_p": "Lý Thường Kiệt là một vị tướng tài năng kiệt xuất thời nhà Lý. Ông nổi tiếng với việc đánh bại quân Tống xâm lược và bình định quân Chiêm Thành ở phía Nam.",
+    "eggs_h2": "Chiến Thắng Chiến Lược",
+    "eggs_p": "Biết được nhà Tống có ý đồ xâm lược Đại Việt, vua Lý Nhân Tông đã cử Lý Thường Kiệt dẫn 10 vạn quân sang tấn công trước để phá tan cứ điểm của địch. Chỉ trong thời gian ngắn, quân đội của ông đã chiếm được các thành trì quan trọng của nhà Tống, gây tổn thất nặng nề cho quân địch và làm phá sản kế hoạch xâm lược của chúng.",
+    "after_h2": "Bản Tuyên Ngôn Độc Lập",
+    "after_p": "Để khích lệ tinh thần quân sĩ, Lý Thường Kiệt đã viết bốn câu thơ thần. Đây được coi là bản Tuyên ngôn Độc lập đầu tiên của Việt Nam, khẳng định chủ quyền của Đại Việt: 'Nam quốc sơn hà Nam đế cư, Tiệt nhiên định phận tại thiên thư. Như hà nghịch lỗ lai xâm phạm, Nhữ đẳng hành khan thủ bại hư'."
+  },
+
+  "tran_hung_dao": {
+    "union_h2": "Cuộc Kháng Chiến Chống Nguyên Mông",
+    "union_p": "Đế chế Mông Cổ là một siêu cường không có đối thủ, chinh phạt từ Á sang Âu. Dưới thời Hốt Tất Liệt, quân Nguyên Mông đã mở ba chiến dịch lớn nhằm thôn tính Việt Nam, đưa đội quân kỵ binh huyền thoại đến uy hiếp bờ cõi phương Nam.",
+    "eggs_h2": "Mưu Lược Của Đức Thánh Trần",
+    "eggs_p": "Hưng Đạo Vương Trần Quốc Tuấn đã lãnh đạo toàn dân kháng chiến. Năm 1288, ông vận dụng lại chiến thuật thủy triều trên sông Bạch Đằng để tiêu diệt hạm đội quân Nguyên bằng cọc nhọn. Chiến thắng quyết định này đã đập tan sức mạnh hải quân Mông Cổ, buộc kẻ thù phải từ bỏ hoàn toàn ý định xâm lược.",
+    "after_h2": "Ý Chí Của Vị Hầu Tước Trẻ",
+    "after_p": "Trần Quốc Toản, khi đó mới 16 tuổi, vì quá trẻ nên không được dự bàn việc quân. Trong cơn giận dữ vì lo cho vận mệnh đất nước, ông đã bóp nát quả cam trong tay lúc nào không hay. Sau đó, ông về tập hợp quân đội riêng, xông pha trận mạc với lá cờ thêu sáu chữ vàng: 'Phá cường địch, báo hoàng ân'."
+  },
+
+  "le_loi": {
+    "union_h2": "Sự Đô Hộ Của Nhà Minh",
+    "union_p": "Sau sự suy yếu của nhà Trần, nhà Minh đã lợi dụng thời cơ để xâm lược và đặt ách đô hộ lên Việt Nam. Năm 1418, Lê Lợi - một hào trưởng đất Lam Sơn - đã phất cờ khởi nghĩa. Ông tự xưng là Bình Định Vương, kêu gọi hào kiệt khắp nơi đứng lên tiến hành cuộc chiến tranh du kích dài hạn chống lại quân xâm lược.",
+    "eggs_h2": "Mười Năm Kháng Chiến",
+    "eggs_p": "Trong một thập kỷ, Lê Lợi cùng quân sư Nguyễn Trãi đã dẫn dắt quân Lam Sơn chiến đấu kiên cường giữa rừng sâu núi thẳm. Dù nhiều lần bị bao vây và thiếu thốn lương thực, ý chí của họ đã khuất phục được quân Minh. Đến năm 1427, các cứ điểm cuối cùng của quân Minh bị đánh bại, Lê Lợi lập nên nhà Hậu Lê, mở ra thời kỳ hoàng kim của văn hóa Việt.",
+    "after_h2": "Truyền Thuyết Trả Gươm Thần",
+    "after_p": "Tương truyền, Long Quân đã cho Lê Lợi mượn gươm thần để đánh đuổi quân Minh. Sau thắng lợi, khi vua đang du ngoạn trên hồ ở Thăng Long, rùa vàng hiện lên đòi lại gươm. Nhà vua hoàn trả gươm báu, từ đó hồ được đổi tên thành hồ Hoàn Kiếm, biểu tượng cho khát vọng hòa bình của dân tộc."
+  },
+
+  "quang_trung": {
+    "union_h2": "Thanh Gươm Phương Tây",
+    "union_p": "Sinh năm 1753, Nguyễn Huệ là một thiên tài quân sự, người lãnh đạo phong trào Tây Sơn chấm dứt hàng thế kỷ chia cắt đất nước. Với mưu lược xuất chúng và tốc độ tiến quân không thể ngăn cản, ông đã đánh bại các tập đoàn phong kiến Trịnh - Nguyễn, mở đường cho sự thống nhất quốc gia.",
+    "eggs_h2": "Kỳ Tích Rạch Gầm - Xoài Mút",
+    "eggs_p": "Năm 1785, Nguyễn Huệ đối mặt với 5 vạn quân Xiêm xâm lược tại vùng đồng bằng sông Cửu Long. Bằng trận mai phục thủy chiến bậc thầy tại Rạch Gầm - Xoài Mút, ông đã sử dụng hỏa lực pháo binh và địa hình để tiêu diệt gọn hạm đội quân địch chỉ trong một ngày, bảo vệ vững chắc bờ cõi phía Nam.",
+    "after_h2": "Cuộc Hành Quân Thần Tốc",
+    "after_p": "Năm 1789, vua Quang Trung lãnh đạo cuộc hành quân 'thần tốc' từ Phú Xuân ra Bắc để giải phóng kinh thành. Trong dịp Tết Kỷ Dậu, quân đội của ông đã đánh tan 29 vạn quân Thanh tại trận Ngọc Hồi - Đống Đa, kết thúc hoàn toàn mối đe dọa từ phương Bắc chỉ trong 5 ngày."
+  },
+
+  "WWII": {
+    "union_h2": "Xiềng Xích Đôi",
+    "union_p": "Vào năm 1940, cục diện chính trị thay đổi khi phát xít Nhật tiến vào Việt Nam. Dân tộc ta rơi vào cảnh 'một cổ hai tròng' dưới sự áp bức của cả thực dân Pháp và phát xít Nhật. Thời kỳ này đánh dấu sự bóc lột tài nguyên cùng cực và nạn đói khủng khiếp, thổi bùng lên ngọn lửa khao khát tự do mãnh liệt trong lòng nhân dân.",
+    "eggs_h2": "Cách Mạng Tháng Tám",
+    "eggs_p": "Khi Thế chiến II kết thúc năm 1945, mặt trận Việt Minh đã chớp thời cơ phát động tổng khởi nghĩa giành chính quyền trên toàn quốc. Chỉ trong vài tuần, bộ máy cai trị của thực dân bị lật đổ. Ngày 2 tháng 9 năm 1945, bản Tuyên ngôn Độc lập vang lên tại Hà Nội, đánh dấu sự kết thúc của gần một thế kỷ đô hộ và sự ra đời của nước Cộng hòa.",
+    "after_h2": "Kháng Chiến Chống Pháp",
+    "after_p": "Cuộc chiến bước vào giai đoạn cam go khi Pháp mưu đồ tái thiết lập chế độ thuộc địa. Đỉnh cao của cuộc kháng chiến là trận Điện Biên Phủ năm 1954. Dưới sự chỉ huy của Đại tướng Võ Nguyên Giáp, quân dân ta đã tạo nên kỳ tích hậu cần, bao vây và buộc tập đoàn cứ điểm mạnh nhất của Pháp phải đầu hàng, chấm dứt sự hiện diện của thực dân phương Tây."
+  },
+
+  "Vietnam_War": {
+    "union_h2": "Đất Nước Chia Cắt",
+    "union_p": "Sau Hiệp định Genève năm 1954, Việt Nam tạm thời bị chia cắt tại vĩ tuyến 17. Miền Bắc xây dựng xã hội chủ nghĩa, trong khi miền Nam nhận được sự hỗ trợ từ Hoa Kỳ. Sự chia cắt này dẫn đến một cuộc xung đột kéo dài và khốc liệt, trở thành tâm điểm của Chiến tranh Lạnh toàn cầu với sự xuất hiện của vũ khí tối tân và chiến tranh du kích.",
+    "eggs_h2": "Đường Mòn Và Rừng Rậm",
+    "eggs_p": "Cuộc chiến được định nghĩa bởi 'Đường mòn Hồ Chí Minh' - một mạng lưới vận tải chiến lược xuyên qua dãy Trường Sơn để tiếp viện cho miền Nam. Bất chấp quy mô khổng lồ của cuộc chiến và sự can thiệp của hơn nửa triệu quân Mỹ, chiến thuật phân tán và sức chịu đựng phi thường của quân dân miền Bắc đã biến cuộc xung đột thành một cuộc chiến tiêu hao không thể lay chuyển.",
+    "after_h2": "Ngày Thống Nhất",
+    "after_p": "Cuộc chiến kết thúc vào ngày 30 tháng 4 năm 1975 khi xe tăng tiến vào Dinh Độc Lập tại Sài Gòn. Đất nước chính thức được thống nhất vào năm 1976 với tên gọi Cộng hòa Xã hội Chủ nghĩa Việt Nam. Thời kỳ này mãi được nhớ tới như một minh chứng cho ý chí sắt đá của người Việt trong việc giành lại chủ quyền dân tộc toàn vẹn."
   }
 }

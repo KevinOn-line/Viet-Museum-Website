@@ -61,6 +61,7 @@ main {
     transform: translateX(-50%);
     margin: 0;
     white-space: nowrap; /* Prevents title from wrapping */
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .dropdown {
@@ -207,12 +208,14 @@ main {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about-card p {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .about-card strong {
